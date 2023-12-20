@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Upper_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/mPelvis
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipLeft
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeBig01Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeBig01Left/mToeBig02Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeBig01Left/mToeBig02Left/mToeBig03Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeBig01Left/mToeBig02Left/mToeBig03Left/mToeBig03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeIndex01Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeIndex01Left/mToeIndex02Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeIndex01Left/mToeIndex02Left/mToeIndex03Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeIndex01Left/mToeIndex02Left/mToeIndex03Left/mToeIndex03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeMiddle01Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeMiddle01Left/mToeMiddle02Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeMiddle01Left/mToeMiddle02Left/mToeMiddle03Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToeMiddle01Left/mToeMiddle02Left/mToeMiddle03Left/mToeMiddle03Left_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToePinky01Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToePinky01Left/mToePinky02Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToePinky01Left/mToePinky02Left/mToePinky03Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeLeft/mPlantiFootLeft/mDigiToesLeft/mToePinky01Left/mToePinky02Left/mToePinky03Left/mToePinky03Left_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeTwist01Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeTwist01Left/mDigiKneeTwist01Left_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeTwist02Left
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipLeft/mDigiKneeTwist02Left/mDigiKneeTwist02Left_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeBig01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeBig01Right/mToeBig02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeBig01Right/mToeBig02Right/mToeBig03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeBig01Right/mToeBig02Right/mToeBig03Right/mToeBig03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeIndex01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeIndex01Right/mToeIndex02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeIndex01Right/mToeIndex02Right/mToeIndex03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeIndex01Right/mToeIndex02Right/mToeIndex03Right/mToeIndex03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeMiddle01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeMiddle01Right/mToeMiddle02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeMiddle01Right/mToeMiddle02Right/mToeMiddle03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToeMiddle01Right/mToeMiddle02Right/mToeMiddle03Right/mToeMiddle03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToePinky01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToePinky01Right/mToePinky02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToePinky01Right/mToePinky02Right/mToePinky03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeRight/mPlantiFootRight/mDigiToesRight/mToePinky01Right/mToePinky02Right/mToePinky03Right/mToePinky03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeTwist01Right
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeTwist01Right/mDigiKneeTwist01Right_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeTwist02Right
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mDigiHipRight/mDigiKneeTwist02Right/mDigiKneeTwist02Right_end
+    m_Weight: 0
+  - m_Path: Armature/mPelvis/mTorso
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_L
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_L/mJacketRoot_L_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_R
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_R/mJacketRoot_R_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_R.001
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mJacketRoot/mJacketRoot_R.001/mJacketRoot_R.001_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mBreast_L
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mBreast_L/mBreast_L_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mBreast_R
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mBreast_R/mBreast_R_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mIndex01Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mIndex01Left/mIndex02Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mIndex01Left/mIndex02Left/mIndex03Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mIndex01Left/mIndex02Left/mIndex03Left/mIndex03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mMiddle01Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mMiddle01Left/mMiddle02Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mMiddle01Left/mMiddle02Left/mMiddle03Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mMiddle01Left/mMiddle02Left/mMiddle03Left/mMiddle03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mPinky01Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mPinky01Left/mPinky02Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mPinky01Left/mPinky02Left/mPinky03Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mPinky01Left/mPinky02Left/mPinky03Left/mPinky03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mThumb01Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mThumb01Left/mThumb02Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mThumb01Left/mThumb02Left/mThumb03Left
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristLeft/mThumb01Left/mThumb02Left/mThumb03Left/mThumb03Left_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristTwistLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarLeft/mShoulderLeft/mElbowLeft/mWristTwistLeft/mWristTwistLeft_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mIndex01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mIndex01Right/mIndex02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mIndex01Right/mIndex02Right/mIndex03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mIndex01Right/mIndex02Right/mIndex03Right/mIndex03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mMiddle01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mMiddle01Right/mMiddle02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mMiddle01Right/mMiddle02Right/mMiddle03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mMiddle01Right/mMiddle02Right/mMiddle03Right/mMiddle03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mPinky01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mPinky01Right/mPinky02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mPinky01Right/mPinky02Right/mPinky03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mPinky01Right/mPinky02Right/mPinky03Right/mPinky03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mThumb01Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mThumb01Right/mThumb02Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mThumb01Right/mThumb02Right/mThumb03Right
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristRight/mThumb01Right/mThumb02Right/mThumb03Right/mThumb03Right_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristTwistRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mCollarRight/mShoulderRight/mElbowRight/mWristTwistRight/mWristTwistRight_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEarLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEarLeft/mEarLeft_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEarRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEarRight/mEarRight_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEyeLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEyeLeft/mEyeLeft_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEyeRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mEyeRight/mEyeRight_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2/mTongue3
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2/mTongue3/mTongue4
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2/mTongue3/mTongue4/mTongue5
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2/mTongue3/mTongue4/mTongue5/mTongue6
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mJaw/mTongue1/mTongue2/mTongue3/mTongue4/mTongue5/mTongue6/mTongue6_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mLipCornerLeft
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mLipCornerLeft/mLipCornerLeft_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mLipCornerRight
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/mTorso/mChest/mUpperChest/mNeck/mHead/mLipCornerRight/mLipCornerRight_end
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2/Tail3
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2/Tail3/Tail4
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2/Tail3/Tail4/Tail5
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+    m_Weight: 1
+  - m_Path: Armature/mPelvis/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail6_end
+    m_Weight: 1
+  - m_Path: Outfit Jacket
+    m_Weight: 1
+  - m_Path: Outfit Shorts
+    m_Weight: 1
+  - m_Path: Outfit_Bra_Warmers_Panie:)
+    m_Weight: 1
+  - m_Path: Sergal
+    m_Weight: 1
