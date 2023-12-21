@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
 
     public float PunchForce;
 
+    public Transform Enemy;
+
+    public bool FightSystem;
 
     float xRotation;
     float yRotation;
@@ -29,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         RbPlayer = GetComponent<Rigidbody>();
         cam = Camera.main.transform;
+        
     }
 
     void Update()
@@ -50,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
         //using the mouse input to make a vector 3 to rotate the player left and right 
         MouseInput = new Vector3(0f, MouseX, 0f);
-
+        FightSystem = gameObject.GetComponentInChildren<AnimationDriver>().FightSystem;
         //sets teh player input into a vector 3
         playerMovementInput = new Vector3(moveX, 0f, moveZ);
 
@@ -61,7 +65,18 @@ public class PlayerController : MonoBehaviour
             float TargetAngle = Mathf.Atan2(playerMovementInput.x, playerMovementInput.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
             //rotates the player to this for now ;3
-            gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f, TargetAngle, 0f);
+            if (FightSystem)
+            {
+                Transform playertransform = gameObject.GetComponentInChildren<Animator>().gameObject.transform;
+                playertransform.LookAt(Enemy, Vector3.up);
+                gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f ,playertransform.rotation.eulerAngles.y, 0f);
+
+            }
+            else
+            {
+                gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f, TargetAngle, 0f);
+            }
+            
 
             //constructs a vector 3 from the target and multiplyin it by the forward vector
             Vector3 MovementVector = Quaternion.Euler(0f, TargetAngle, 0f) * Vector3.forward;

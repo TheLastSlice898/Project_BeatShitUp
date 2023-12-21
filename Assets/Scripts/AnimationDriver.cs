@@ -22,42 +22,26 @@ public class AnimationDriver : MonoBehaviour
 
 
 
-
-        bool DoubleJumpo = PlayerScript.GetComponent<PlayerController>().DoubleJump;
+        
         bool IsGrounded = PlayerScript.GetComponent<PlayerController>().IsGrounded;
         bool IsSprinting = PlayerScript.GetComponent<PlayerController>().IsSprinting;
         bool IsMoving = PlayerScript.GetComponent<PlayerController>().IsMoving;
 
         float AnimMoveX = PlayerScript.GetComponent<PlayerController>().playerMovementInput.x;
-        float AnimMoveZ = PlayerScript.GetComponent<PlayerController>().playerMovementInput.z;
+        float AnimMoveY = PlayerScript.GetComponent<PlayerController>().playerMovementInput.z;
 
-        if (IsSprinting)
-        {
-            AnimMoveZ *= 2;
-            AnimMoveX *= 2;
-        }
-
-
-
-
-        float SpeedMulti = PlayerScript.GetComponent<PlayerController>().SpeedMulti;
         DaAmimator.SetLayerWeight(1, PunchWeight);
         DaAmimator.SetBool("IsMoving", IsMoving);
         DaAmimator.SetBool("IsSprinting", IsSprinting);
         DaAmimator.SetFloat("MoveX", AnimMoveX);
-        DaAmimator.SetFloat("MoveZ", AnimMoveZ);
+        DaAmimator.SetFloat("MoveY", AnimMoveY);
         DaAmimator.SetBool("IsGrounded", IsGrounded);
-        DaAmimator.SetFloat("SpeedMulti", SpeedMulti);
 
        
 
-        if (Input.GetKeyDown(KeyCode.Space) && DoubleJumpo)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             DaAmimator.SetTrigger("Jump");
-        }
-        else if (Input.GetKeyDown(KeyCode.Space) && !DoubleJumpo)
-        {
-            DaAmimator.SetTrigger("DoubleJump");
         }
 
         //if (IsMoving && FightSystem)
@@ -69,6 +53,7 @@ public class AnimationDriver : MonoBehaviour
         {
             FightSystem = true;
             DaAmimator.SetTrigger("Punch");
+            gameObject.GetComponent<MeleeScript>().EnterLockonFucntion();
             PunchWeight = Mathf.Lerp(0,1, 1);
             
         }

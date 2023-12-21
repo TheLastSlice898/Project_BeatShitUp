@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class SetIdle : StateMachineBehaviour
 {
-
+    public float timer; 
+    
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //sets the weight of the layer to 0
-        animator.gameObject.GetComponent<AnimationDriver>().PunchWeight = 0f;
+        timer += Time.deltaTime;
+        if (timer > stateInfo.length)
+        {
+            animator.SetBool("IsHolding",true);
+            timer = 0f;
+        }
 
-        //sets the system to false;
-        animator.gameObject.GetComponent<AnimationDriver>().FightSystem = false;
+
+
     }
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
