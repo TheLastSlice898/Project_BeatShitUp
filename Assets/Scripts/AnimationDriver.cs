@@ -53,7 +53,7 @@ public class AnimationDriver : MonoBehaviour
         {
             FightSystem = true;
             DaAmimator.SetTrigger("Punch");
-            gameObject.GetComponent<MeleeScript>().EnterLockonFucntion();
+            //gameObject.GetComponent<MeleeScript>().EnterLockonFucntion();
             PunchWeight = Mathf.Lerp(0,1, 1);
             
         }

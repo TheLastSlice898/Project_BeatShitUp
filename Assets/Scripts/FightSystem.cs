@@ -24,6 +24,6 @@ public class FightSystem : MonoBehaviour
     }
     public void PunchGo()
     {
-        PhysicBody.AddForce(Vector3.forward * PunchForce, ForceMode.Impulse);
+        PhysicBody.AddForce(gameObject.GetComponentInChildren<Animator>().gameObject.transform.forward * PunchForce, ForceMode.Impulse);
     }
 }
