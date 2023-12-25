@@ -18,12 +18,10 @@ public class PlayerController : MonoBehaviour
     private Transform cam;
 
     public bool IsGrounded , IsMoving, IsSprinting, DoubleJump;
-
+    [Header("Combat")]
     public float PunchForce;
-
-    public Transform Enemy;
-
     public bool FightSystem;
+    public Transform Enemy;
 
     float xRotation;
     float yRotation;

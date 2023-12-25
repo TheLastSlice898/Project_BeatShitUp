@@ -13,6 +13,8 @@ public class AI_Script : MonoBehaviour
     public float mindistance;
     public bool patroling;
 
+    public bool attacked;
+
     public GameObject ThaPlayer;
     // Start is called before the first frame update
     void Start()
@@ -40,10 +42,16 @@ public class AI_Script : MonoBehaviour
             {
                 currentwp = 0;
             }
-
-
-            
         }
+        else
+        {
+            if (Vector3.Distance(agent.transform.position, PatrolPoints[currentwp].position) <= mindistance)
+            {
+                agent.ResetPath();
+            }
+        }
+        
+
         if (agro)
         {
 
@@ -57,9 +65,10 @@ public class AI_Script : MonoBehaviour
                 ThaPlayer = null;
             }
         }
-
-
-
+        if (attacked)
+        {
+            agent.velocity = Vector3.zero;
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
