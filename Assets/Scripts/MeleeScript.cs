@@ -10,6 +10,7 @@ public class MeleeScript : MonoBehaviour
     {
         print("I just fucked you up lol");
         OnPunchDamage.Invoke();
+        
     }
     public delegate void StopLockon();
     public static event StopLockon OnStopLockon;

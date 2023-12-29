@@ -8,7 +8,7 @@ public class StopMeleeSystem : StateMachineBehaviour
     {
         animator.SetLayerWeight(layerIndex, 0f);
         animator.GetComponent<AnimationDriver>().PunchWeight = 0f;
-        animator.GetComponent<AnimationDriver>().FightSystem = false;
+        animator.GetComponentInParent<PlayerController>().FightSystem = false;
     }
 
 }

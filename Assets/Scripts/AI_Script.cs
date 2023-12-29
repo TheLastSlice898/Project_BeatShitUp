@@ -6,23 +6,29 @@ using UnityEngine.AI;
 public class AI_Script : MonoBehaviour
 {
     public NavMeshAgent agent;
+    public GameObject ThaPlayer;
+    public float health;
+
     public Transform[] PatrolPoints;
     public int currentwp;
-    public bool agro;
-    public float agrotimer = 10f;
-    public float mindistance;
     public bool patroling;
 
     public bool attacked;
+    public bool IsDead;
 
-    public GameObject ThaPlayer;
+    public bool agro;
+    public float agrotimer = 10f;
+    public float mindistance;
+   
+
+    
     // Start is called before the first frame update
     void Start()
     {
         agrotimer = 10f;
         currentwp = 0;
-        patroling = true;
-        agent.SetDestination(PatrolPoints[currentwp].position);
+        
+        //agent.SetDestination(PatrolPoints[currentwp].position);
 
     }
 
@@ -68,11 +74,12 @@ public class AI_Script : MonoBehaviour
         if (attacked)
         {
             agent.velocity = Vector3.zero;
+
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        print(other.name);
+        //print(other.name);
         if (other.gameObject.name == "Player")
         {
             ThaPlayer = other.gameObject;
@@ -80,5 +87,27 @@ public class AI_Script : MonoBehaviour
             patroling = false;
             agro = true;
         }
+
+        if (other.CompareTag("HitBox"))
+        {
+            DamageAI();
+        }
+    }
+
+    public void DamageAI()
+    {
+        gameObject.GetComponentInChildren<Animator>().SetTrigger("Hit");
+        gameObject.GetComponentInChildren<Animator>().SetBool("Die", true);
+        attacked = true;
+        health = 0f;
+        IsDead = true;
+        
+    }
+
+   
+
+    public void ImGoingToKillMyselfNow()
+    {
+        Destroy(gameObject);
     }
 }

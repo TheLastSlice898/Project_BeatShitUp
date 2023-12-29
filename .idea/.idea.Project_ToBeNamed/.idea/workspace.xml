@@ -5,109 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15ab37e-615e-4e45-b0f9-0d3e8e9e0218" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Dloat.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Dloat.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/FastRunEdit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/FastRunEdit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/FastRunHoldJump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/FastRunHoldJump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/Running Backward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/Running Backward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Fast Run 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Fast Run 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Fast Run.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Fast Run.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Front Flip.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Front Flip.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Holding Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Holding Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Left Strafe Walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Left Strafe Walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Left Strafe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Left Strafe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Right Strafe Walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Right Strafe Walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Right Strafe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/X Bot@Right Strafe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/jump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/jump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left strafe walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left strafe walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left strafe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left strafe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left turn (2).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left turn (2).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left turn.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/left turn.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right strafe walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right strafe walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right strafe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right strafe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right turn (2).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right turn (2).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right turn.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/right turn.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/walking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/LocoMotion/walking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/LeftHookEdit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/LeftHookEdit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch 2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch 2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Punch Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/RightHookEdit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/RightHookEdit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Roundhouse KickEdit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/Roundhouse KickEdit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Fighting Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Fighting Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Punching (1).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Punching (1).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Punching.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Punching.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Roundhouse Kick.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Melee/X Bot@Roundhouse Kick.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Upper_Mask.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/Upper_Mask.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/X Bot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Locomotion Model/X Bot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Fluff.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Fluff.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Sergal_Paintbase_Eyes_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Sergal_Paintbase_Eyes_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Materials/Transparent.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Body_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Body_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Fluff_AlbedoTransparency Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Fluff_AlbedoTransparency Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Mane_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sergal/Charaters/Sergal_Paintbase_Mane_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ModelsSwitch/Slice_Clothing_Full.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ModelsSwitch/Slice_Clothing_Full.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ModelsSwitch/X Bot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ModelsSwitch/X Bot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_ToBeNamed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_ToBeNamed/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI_AnimationDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI_AnimationDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI_Script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI_Script.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HitRand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HitRand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockOnScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockOnScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScalingUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScalingUI.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewSceene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewSceene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationDriver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationDriver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetIdle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetIdle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ModelSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ModelSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopMeleeSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopMeleeSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StopMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/moveTime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/moveTime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,6 +124,7 @@
       <workItem from="1703116138243" duration="8000" />
       <workItem from="1703116152874" duration="2105000" />
       <workItem from="1703121059872" duration="165000" />
+      <workItem from="1703837939399" duration="903000" />
     </task>
     <servers />
   </component>

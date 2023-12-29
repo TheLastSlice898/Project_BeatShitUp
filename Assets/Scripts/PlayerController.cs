@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
     [Header("Combat")]
     public float PunchForce;
     public bool FightSystem;
-    public Transform Enemy;
+
+    public Transform TargetedEnemy;
 
     float xRotation;
     float yRotation;
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
         //using the mouse input to make a vector 3 to rotate the player left and right 
         MouseInput = new Vector3(0f, MouseX, 0f);
-        FightSystem = gameObject.GetComponentInChildren<AnimationDriver>().FightSystem;
+        
         //sets teh player input into a vector 3
         playerMovementInput = new Vector3(moveX, 0f, moveZ);
 
@@ -61,13 +62,22 @@ public class PlayerController : MonoBehaviour
             IsMoving = true;
             //grabs the angle of where the player is moving 
             float TargetAngle = Mathf.Atan2(playerMovementInput.x, playerMovementInput.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-
+            
             //rotates the player to this for now ;3
             if (FightSystem)
             {
-                Transform playertransform = gameObject.GetComponentInChildren<Animator>().gameObject.transform;
-                playertransform.LookAt(Enemy, Vector3.up);
-                gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f ,playertransform.rotation.eulerAngles.y, 0f);
+
+                if (TargetedEnemy == null)
+                {
+                    gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f, TargetAngle, 0f);
+                }
+                else
+                {
+                    Transform playertransform = gameObject.GetComponentInChildren<Animator>().gameObject.transform;
+                    playertransform.LookAt(TargetedEnemy, Vector3.up);
+                    gameObject.GetComponentInChildren<Animator>().gameObject.transform.rotation = Quaternion.Euler(0f, playertransform.rotation.eulerAngles.y, 0f);
+                }
+               
 
             }
             else
@@ -86,10 +96,27 @@ public class PlayerController : MonoBehaviour
         {
             IsMoving = false;
         }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            FightSystem = true;
+
+            if (TargetedEnemy == null)
+            {
+
+            }
+            else
+            {
+
+                gameObject.GetComponentInChildren<MeleeScript>().EnterLockonFucntion();
+            }
+            
+
+        }
         if (Input.GetKey(KeyCode.LeftShift))
         {
             IsSprinting = true;
-
+            FightSystem = false;
             if (CurrentSpeed >= SprintSpeed)
             {
                 CurrentSpeed = SprintSpeed;

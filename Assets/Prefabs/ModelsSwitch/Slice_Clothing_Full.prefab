@@ -2571,7 +2571,7 @@ GameObject:
   - component: {fileID: 3503981153407424087}
   - component: {fileID: 7368039210248211501}
   - component: {fileID: 5436136359338056581}
-  - component: {fileID: 2902459136114736555}
+  - component: {fileID: 4316805518780795816}
   m_Layer: 0
   m_Name: Slice_Clothing_Full
   m_TagString: Untagged
@@ -2635,8 +2635,7 @@ MonoBehaviour:
   DaAmimator: {fileID: 0}
   PlayerScript: {fileID: 0}
   PunchWeight: 0
-  FightSystem: 0
---- !u!114 &2902459136114736555
+--- !u!114 &4316805518780795816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

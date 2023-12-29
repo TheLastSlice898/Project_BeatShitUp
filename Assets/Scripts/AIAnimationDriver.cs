@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AI_AnimationDriver : MonoBehaviour
+public class AIAnimationDriver : MonoBehaviour
 {
 
     private NavMeshAgent agent;
-    private Rigidbody body;
+
     private Animator animator;
+    private AI_Script ai_Script;
     public float Animfloat;
     // Start is called before the first frame update
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        animator = GetComponentInChildren<Animator>();
-        body = GetComponent<Rigidbody>();
+        agent = GetComponentInParent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        ai_Script = GetComponentInParent<AI_Script>();
     }
 
     // Update is called once per frame
@@ -24,10 +25,9 @@ public class AI_AnimationDriver : MonoBehaviour
         Animfloat = agent.velocity.magnitude;
         animator.SetFloat("Velocity", Animfloat);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            body.AddForce(agent.transform.forward * -10f, ForceMode.Impulse);
-        }
-
+    } 
+    public void IWantToKillthingsthing()
+    {
+        ai_Script.ImGoingToKillMyselfNow();
     }
 }

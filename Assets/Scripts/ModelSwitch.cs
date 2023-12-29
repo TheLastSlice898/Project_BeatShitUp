@@ -30,6 +30,7 @@ public class ModelSwitch : MonoBehaviour
     }
     public void SwitchPlayerModel()
     {
+        float anglebefore = CurrentModel.transform.rotation.eulerAngles.y;
         Destroy(CurrentModel);
         CurrentChar++;
         if (CurrentChar >= Characters.Length)
@@ -38,6 +39,7 @@ public class ModelSwitch : MonoBehaviour
         }
         GameObject newchar = Instantiate(Characters[CurrentChar], gameObject.transform);
         newchar.GetComponent<AnimationDriver>().PlayerScript = gameObject;
+        newchar.transform.rotation = Quaternion.Euler(0, anglebefore, 0);
         CurrentModel = newchar;
     }
 }

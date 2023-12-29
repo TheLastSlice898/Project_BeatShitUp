@@ -8,7 +8,7 @@ public class AnimationDriver : MonoBehaviour
     public GameObject PlayerScript;
 
     public float PunchWeight;
-    public bool FightSystem;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +37,10 @@ public class AnimationDriver : MonoBehaviour
         DaAmimator.SetFloat("MoveY", AnimMoveY);
         DaAmimator.SetBool("IsGrounded", IsGrounded);
 
-       
+        if (IsSprinting)
+        {
+            PunchWeight = IsSprinting? 0 : 1;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -51,9 +54,7 @@ public class AnimationDriver : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            FightSystem = true;
             DaAmimator.SetTrigger("Punch");
-            //gameObject.GetComponent<MeleeScript>().EnterLockonFucntion();
             PunchWeight = Mathf.Lerp(0,1, 1);
             
         }

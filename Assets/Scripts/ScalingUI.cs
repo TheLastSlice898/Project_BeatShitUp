@@ -16,6 +16,6 @@ public class ScalingUI : MonoBehaviour
     {
         transform.LookAt(ThePlayer.transform);
         float targetangle = transform.rotation.eulerAngles.y;
-        Quaternion.Euler(0f,targetangle,0f);
+        transform.rotation = Quaternion.Euler(0f,targetangle,0f);
     }
 }
